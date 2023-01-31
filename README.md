@@ -7,14 +7,15 @@ ML4Science Assignment
 
 Steps to run this project
 
-1. Create **/dataset** dir in root dir
-2. Extract data.rar in /dataset dir
-3. Also extract mnist.zip dataset in /dataset dir
-4. Create **/customDataset** dir in root dir to store new generated data
-5. Run $ python3 customDatasetGenerator.py to generate new dataset. (It will add 4 files to customDataset Dir)
-6. Run train.ipynb notebook to train model.
+1. Create **`/dataset`** dir in root dir
+2. Extract data.rar in `/dataset` dir
+3. Also extract **mnist.zip** dataset in **/dataset** dir
+4. Create **`/customDataset`** dir in root dir to store new generated data
+5. Run `$ python3 customDatasetGenerator.py` to generate new dataset. (It will add 4 files to customDataset Dir)
+6. Run **train.ipynb** notebook to train model.
 
-Once Done above 4 step, Root dir should look like this.
+Once Done above 5 step, Root dir should look like this.
+
 -------------------------------------------------------
 root
   |-> customDatasetGenerator.py
@@ -35,4 +36,5 @@ root
   |-> train.ipynb
   |-> data.rar
   |-> mnist.zip
+
 -------------------------------------------------------
