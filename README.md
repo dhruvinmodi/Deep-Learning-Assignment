@@ -17,24 +17,24 @@ Steps to run this project
 Once Done above 5 step, Root dir should look like this.
 
 -------------------------------------------------------
-root
-  |-> customDatasetGenerator.py
-  |-> dataset
-          |-> data0.npy
-          |-> lab0.npy
-          |-> data1.npy
-          |-> lab1.npy
-          |-> data2.npy
-          |-> lab2.npy
-          |-> train.csv
-          |-> test.csv
-  |-> customDataset
-          |-> trainX.npy
-          |-> trainY.npy
-          |-> testX.npy
-          |-> testY.npy
-  |-> train.ipynb
-  |-> data.rar
-  |-> mnist.zip
+        Root
+        |-> customDatasetGenerator.py
+        |-> dataset
+                |-> data0.npy
+                |-> lab0.npy
+                |-> data1.npy
+                |-> lab1.npy
+                |-> data2.npy
+                |-> lab2.npy
+                |-> train.csv
+                |-> test.csv
+        |-> customDataset
+                |-> trainX.npy
+                |-> trainY.npy
+                |-> testX.npy
+                |-> testY.npy
+        |-> train.ipynb
+        |-> data.rar
+        |-> mnist.zip
 
 -------------------------------------------------------
