@@ -52,10 +52,10 @@ def generateMultidigitDataset(sampleCount=100, x=[], y=[]):
                                 t1 = np.zeros((40, 168))
                                 X_MIN = random.choice(range(5,15))
                                 Y_MIN = random.choice(range(5,15))
-                                img1 = trainX_pool[i][0].copy()
-                                img2 = trainX_pool[j][0].copy()
-                                img3 = trainX_pool[k][0].copy()
-                                img4 = trainX_pool[l][0].copy()
+                                img1 = trainX_pool[i][random.choice(range(len(trainX_pool[i])))].copy()
+                                img2 = trainX_pool[j][random.choice(range(len(trainX_pool[j])))].copy()
+                                img3 = trainX_pool[k][random.choice(range(len(trainX_pool[k])))].copy()
+                                img4 = trainX_pool[l][random.choice(range(len(trainX_pool[l])))].copy()
 
                                 t1[Y_MIN: Y_MIN + img1.shape[0], X_MIN: X_MIN + img1.shape[1]] = t1[Y_MIN: Y_MIN + img1.shape[0], X_MIN: X_MIN + img1.shape[1]] + img1
 
