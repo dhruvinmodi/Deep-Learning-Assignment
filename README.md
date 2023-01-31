@@ -15,7 +15,7 @@ Steps to run this project
 6. Run train.ipynb notebook to train model.
 
 Once Done above 4 step, Root dir should look like this.
-
+-------------------------------------------------------
 root
   |
   ---
@@ -37,3 +37,4 @@ root
     |-> train.ipynb
     |-> data.rar
     |-> mnist.zip
+-------------------------------------------------------
